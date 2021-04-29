@@ -1,0 +1,96 @@
+<!-- +2000 偶数格地狱门取东北角 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000">
+   <!-- 更新日志: 时间只修改文本，下面的每一条y+20像素 -->
+      <rect x="2" y="400"  width="320" height="160" fill="#FFFFFF" stroke-width="2" stroke="black" />
+      <text x="117" y="420" fill="black" font-size="20" font-family="微软雅黑">更新日志</text>
+
+      <circle cx="12" cy="434" r="3" stroke="black" stroke-width="2" fill="black" />
+      <text x="19" y="440" fill="black" font-size="15" font-family="微软雅黑">2021/5/5</text>
+
+      <circle cx="12" cy="454" r="3" stroke="black" stroke-width="2" fill="black" />
+      <text x="19" y="460" fill="black" font-size="15" font-family="微软雅黑">首次发布</text>
+
+   <!-- 道路 -->
+      <!-- 主干道 -->
+         <!-- 东主干道 --><line x1="2022" x2="2078" y1="2009" y2="2009" style="stroke:rgb(0,0,0);stroke-width:2"/>
+         <!-- 西主干道 --><line x1="2022" x2="1595" y1="2009" y2="2009" style="stroke:rgb(10,20,200);stroke-width:2"/>
+         <!-- 西主干道规划段 --><line x1="1595" x2="476" y1="2009" y2="2009" style="stroke:rgb(10,200,200);stroke-width:2"/>
+         <!-- 南主干道 -->
+         <!-- 北主干道 --><line x1="2022" x2="2022" y1="2009" y2="1832" style="stroke:rgb(0,0,0);stroke-width:2"/>
+      <!-- 小路 -->
+         <!-- 末地 --><line x1="2022" x2="2037" y1="1832" y2="1832" style="stroke:rgb(150,150,150);stroke-width:2"/>
+         <!-- 基地 --><line x1="2049" x2="2049" y1="2009" y2="2037" style="stroke:rgb(150,150,150);stroke-width:2"/>
+         <!-- 骷髅刷怪笼 --><line x1="2077" x2="2077" y1="2009" y2="2031" style="stroke:rgb(150,150,150);stroke-width:2"/>
+         <!-- 粘土山 --><line x1="1778" x2="1778" y1="2009" y2="1992" style="stroke:rgb(150,150,150);stroke-width:2"/>
+         <!-- 刷冰机/熔炉组 --><line x1="1723" x2="1723" y1="2009" y2="1785" style="stroke:rgb(150,150,150);stroke-width:2"/>
+      <!-- 即将废弃 -->
+         <!-- 史莱姆农场 --><line x1="1595" x2="1595" y1="2009" y2="1890" style="stroke:rgb(250,200,0);stroke-width:2"/>
+      <!-- 规划中 -->
+         <!-- 岩浆怪农场 --><line x1="476" x2="476" y1="2009" y2="1972" style="stroke:rgb(10,200,200);stroke-width:2"/>
+
+   <!-- 传送门 -->
+      <circle cx="2022" cy="2009" r="5" stroke="#009fb4" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="2030" y="2005" fill="#000000" font-size="13">出生点</text>
+
+      <circle cx="2037" cy="1832" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="2046" y="1832" fill="#000000" font-size="13">末地</text>
+
+      <circle cx="2049" cy="2017" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="2016" y="2027" fill="#000000" font-size="13">基地</text>
+
+      <circle cx="2049" cy="2037" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="1952" y="2047" fill="#000000" font-size="13">洞穴蜘蛛刷怪笼</text>
+
+      <circle cx="2077" cy="2031" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="2086" y="2031" fill="#000000" font-size="13">骷髅刷怪笼</text>
+
+      <circle cx="1778" cy="1992" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="1786" y="1992" fill="#000000" font-size="13">粘土山</text>
+
+      <circle cx="1723" cy="1785" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="1731" y="1785" fill="#000000" font-size="13">刷冰机/熔炉组</text>
+
+      <circle cx="1595" cy="1890" r="5" stroke="black" stroke-width="2" fill="green" />
+      <text font-family="黑体"  x="1603" y="1890" fill="#000000" font-size="13">史莱姆农场施工</text>
+
+      <circle cx="476" cy="1972" r="5" stroke="#009fb4" stroke-width="2" fill="#e7b100" />
+      <text font-family="黑体"  x="484" y="1972" fill="#000000" font-size="13">岩浆怪农场</text>
+
+   <!-- 图例 -->
+      <rect x="2" y="2"  width="240" height="330" fill="#FFFFFF" stroke-width="2" stroke="black" />
+      <text x="90" y="30" fill="black" font-size="30" font-family="黑体">图例</text>
+
+      <!-- 传送门 -->
+         <circle cx="20" cy="50" r="5" stroke="black" stroke-width="2" fill="green" />
+         <text x="27" y="55" fill="black" font-size="15" font-family="黑体">已启用的传送门</text>
+         <circle cx="20" cy="70" r="5" stroke="black" stroke-width="2" fill="#e7b100" />
+         <text x="27" y="75" fill="black" font-size="15" font-family="黑体">未连接至地狱交通网格的传送门</text>
+         <circle cx="20" cy="90" r="5" stroke="black" stroke-width="2" fill="#aaaaaa" />
+         <text x="27" y="95" fill="black" font-size="15" font-family="黑体">已关闭的传送门</text>
+         <circle cx="20" cy="110" r="5" stroke="black" stroke-width="2" fill="#ff4800" />
+         <text x="27" y="115" fill="black" font-size="15" font-family="黑体">即将关闭的传送门</text>
+         <circle cx="20" cy="130" r="5" stroke="black" stroke-width="2" fill="#00ff9d" />
+         <text x="27" y="135" fill="black" font-size="15" font-family="黑体">在基岩上方的传送门</text>
+         <circle cx="20" cy="150" r="5" stroke="black" stroke-width="2" fill="#00f7ff" />
+         <text x="27" y="155" fill="black" font-size="15" font-family="黑体">规划中（暂未建成）的传送门</text>
+         <circle cx="20" cy="300" r="5" stroke="#009fb4" stroke-width="2" fill="#FFFFFF" />
+         <text x="27" y="305" fill="black" font-size="15" font-family="黑体">可到达基岩上方的传送门</text>
+
+      <!-- 道路 -->
+         <line x1="15" x2="23" y1="170" y2="170" style="stroke:black;stroke-width:2"/>
+         <text x="27" y="175" fill="black" font-size="15" font-family="黑体">正常道路</text>
+         <line x1="15" x2="23" y1="190" y2="190" style="stroke:rgb(150,150,150);stroke-width:2"/>
+         <text x="27" y="195" fill="black" font-size="15" font-family="黑体">小路</text>
+         <line x1="15" x2="23" y1="210" y2="210" style="stroke:rgb(10,20,200);stroke-width:2"/>
+         <text x="27" y="215" fill="black" font-size="15" font-family="黑体">未装修的道路</text>
+         <line x1="15" x2="23" y1="230" y2="230" style="stroke:rgb(250,200,0);stroke-width:2"/>
+         <text x="27" y="235" fill="black" font-size="15" font-family="黑体">将废弃的道路</text>
+         <line x1="15" x2="23" y1="250" y2="250" style="stroke:rgb(255,0,0);stroke-width:2"/>
+         <text x="27" y="255" fill="black" font-size="15" font-family="黑体">已废弃的道路</text>
+         <line x1="15" x2="23" y1="270" y2="270" style="stroke:rgb(10,200,200);stroke-width:2"/>
+         <text x="27" y="275" fill="black" font-size="15" font-family="黑体">规划中的道路</text>
+
+   <!-- 标题 -->
+      <text x="245" y="85" fill="black" font-size="100" font-family="黑体">Creatio 科技服地狱交通地图</text>
+      <text x="245" y="120" fill="black" font-size="20" font-family="黑体">比例尺: 1:1 (1 px = 1 block)</text>
+</svg>
